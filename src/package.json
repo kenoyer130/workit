@@ -1,0 +1,25 @@
+{
+  "name": "workit",
+  "version": "1.0.0",
+  "description": "workout tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenoyer130/workit.git"
+  },
+  "author": "jkenoyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenoyer130/workit/issues"
+  },
+  "homepage": "https://github.com/kenoyer130/workit",
+  "dependencies": {
+    "babel-preset-react": "^6.1.18",
+    "babelify": "^7.2.0",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  }
+}
