@@ -6,9 +6,9 @@ exploring the following tech
 
 * Visual Studio Code
 * Amazon app services
-** Lambda
-** S3
-** API Gateway
+  * Lambda
+  * S3
+  * API Gateway
 * React and Flux front end
 * React Native for android support (don't own a mac)
 
@@ -24,13 +24,13 @@ Exercise
 User
 WorkOut
 * Activity
-* Area
-** Exercise
-*** Timed
-*** Set
-**** Rep
-**** Weight
-**** Rest
+  * Area
+  * Exercise
+    * Timed
+    * Set
+      * Rep
+      * Weight
+  * Rest
 Session
 * Workout instance
 * Date
