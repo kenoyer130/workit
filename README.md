@@ -21,7 +21,9 @@ Exercise
 * Timed or Set
 * Rest after
 * Area 
+
 User
+
 WorkOut
 * Activity
   * Area
@@ -31,6 +33,7 @@ WorkOut
       * Rep
       * Weight
   * Rest
+
 Session
 * Workout instance
 * Date
