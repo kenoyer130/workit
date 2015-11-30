@@ -1,7 +1,9 @@
+var React = require('react');
+var ReactDOM = require('react-dom');
 
-var WorkItApp = require('./components/WorkItApp.react');
+var WorkItApp = require('./components/WorkItApp.jsx');
 
-React.render(
+ReactDOM.render(
   <WorkItApp />,
-  document.getElementById('todoapp')
+  document.getElementById('WorkItApp') 
 );

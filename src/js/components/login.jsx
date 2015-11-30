@@ -1,10 +1,7 @@
-// App.js
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var Login = require('./login.react');
-
-var WorkItApp = React.createClass({
+var Login = React.createClass({
 
   getInitialState: function() {
     return null;
@@ -23,7 +20,7 @@ var WorkItApp = React.createClass({
    */
   render: function() {
     return (
-        <Login />
+        <div className="g-signin2" data-onsuccess="onSignIn"></div>
     );
   },
 
@@ -33,4 +30,4 @@ var WorkItApp = React.createClass({
 
 });
 
-module.exports = WorkItApp;
+module.exports = Login;

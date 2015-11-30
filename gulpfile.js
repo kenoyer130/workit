@@ -34,6 +34,7 @@ gulp.task('watch', function() {
 
   return watcher.on('update', function () {
     watcher.bundle()
+      .on('error', function(e) { console.log(e.name, e.description, e.filename); })
       .pipe(source(path.OUT))
       .pipe(gulp.dest(path.DEST_SRC))
       console.log('Updated');
